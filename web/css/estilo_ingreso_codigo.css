@@ -1,0 +1,73 @@
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "login";
+    background-image: url("../imagenes/hero-forest-.jpg");
+}
+
+#logo{
+    height: 7rem;
+    margin-top: 0.8rem;
+}
+
+.contenido {
+    text-align: center;
+    border: solid;
+    border-color: #F7F7F7;
+    border-radius: 10px;
+    grid-area: login;
+    justify-self: center;   
+    align-self: center;
+    background-color: #F7F7F7;
+    box-shadow: 3px 10px 10px 5px rgba(0,0,0,0.2);
+    width: 23rem;
+}
+
+#form-recuperar-password input{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 7px;
+    padding: 15px;
+    width: 77%;
+    height: 15px;
+    margin-bottom: 1rem;
+}
+
+#form-recuperar-password h4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button-recuperar{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    border: solid;
+    border-color: #b2dd77;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #b2dd77;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.button-recuperar:hover{
+    background-color: #77dd77;
+    border-color: #77dd77;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+
